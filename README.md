@@ -6,7 +6,7 @@ Files and Directories Included
 
 1) EmployeeSQL -- Directory containing all files and data directories
 
-2) EmployeeSQL/data -- Directory containing all CSV files importing into SQL.  CSV files here are departments, dept_emp, dept_manager, employees, salaries, titles.
+2) EmployeeSQL/data -- Directory containing all CSV files for importing into SQL.  CSV files here are departments, dept_emp, dept_manager, employees, salaries, titles.
 
 3) EmployeeSQL/EmployeeSQL_ERD.png -- ERD diagram for modeling data
 
