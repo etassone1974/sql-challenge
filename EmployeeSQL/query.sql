@@ -10,8 +10,8 @@ ORDER BY e.emp_no;
 -- 2. List first name, last name, and hire date for employees who were hired in 1986
 SELECT e.emp_no, e.last_name, e.hire_date
 FROM employees as e
-WHERE e.hire_date >= '1986-01-01' AND e.hire_date <= '1986-12-31'
-ORDER BY e.hire_date;
+WHERE e.hire_date >= '1986-01-01' AND e.hire_date <= '1986-12-31';
+
 
 -- 3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name
 SELECT d1.dept_no as "Dept No", d1.dept_name AS "Dept Name", e.emp_no AS "Manager Emp No", e.last_name as "Manager Last Name", e.first_name as "Manager First Name"
